@@ -1,0 +1,22 @@
+[server]
+#连设备
+
+    Port = "17118"
+    Host = "0.0.0.0"
+    Name = "loraGateway"
+
+
+[client]
+#连网关
+
+    Name = "Gateway1"
+    Host = "127.0.0.1"
+    Port = "17218"
+
+
+    #协议解析docker
+    Name = "WSdocker"
+    Host = "127.0.0.1"
+    Port = "18118"
+
+
